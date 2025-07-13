@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #006699;
+}
+
+.malla {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.semestre {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.semestre h2 {
+  color: #444;
+}
+
+.semestre ul {
+  list-style: none;
+  padding: 0;
+}
+
+.semestre ul li a {
+  text-decoration: none;
+  color: #007acc;
+}
